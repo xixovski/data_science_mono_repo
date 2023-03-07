@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Domain
 metadata:
-  name: data_science_mono_repo
-  description: Repository of data science projects
+  name: xixovski-data-science-central-repository
+  title: Xixovski data science projects
+  description: Central repository of data science projects. 
 spec:
   type: service
   owner: user:guest
