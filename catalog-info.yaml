@@ -7,3 +7,12 @@ spec:
   type: service
   owner: user:guest
   lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: models
+  description: Individual models
+spec:
+  targets:
+  - ./models/**/catalog-info.yaml
