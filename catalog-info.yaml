@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: xixovski's data science repository
+  description: Repository of data science projects
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: production
