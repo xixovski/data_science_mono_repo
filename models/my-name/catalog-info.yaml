@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-name
+  description: Xixovski model a
+  labels:
+    squad: squad-a
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: production
