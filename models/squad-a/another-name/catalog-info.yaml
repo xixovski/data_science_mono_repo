@@ -7,6 +7,6 @@ metadata:
     squad: squad-b
 spec:
   system: squad-a-data-science
-  type: service
+  type: ml-model
   owner: user:guest
   lifecycle: production
