@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: squad-a-data-science
+  description: Squad A Data Science projects
+  labels:
+    squad: squad-a
+spec:
+  domain: xixovski-data-science-central-repository
+  owner: user:guest
+  lifecycle: production
