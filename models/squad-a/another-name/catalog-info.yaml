@@ -6,6 +6,7 @@ metadata:
   labels:
     squad: squad-b
 spec:
+  system: squad-a-data-science
   type: service
   owner: user:guest
   lifecycle: production
