@@ -16,5 +16,5 @@ metadata:
   description: Individual models
 spec:
   targets:
-  - ./models/**/**/catalog-info.yaml
-  - ./models/**/catalog-info.yaml
+    - ./models/**/**/catalog-info.yaml
+    - ./models/**/catalog-info.yaml
