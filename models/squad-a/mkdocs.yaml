@@ -1,0 +1,4 @@
+site_name: Squad A models
+
+nav:
+  - About: index.md
