@@ -2,6 +2,5 @@ site_name: Squad A models
 
 
 nav:
-  - About: index.mdi
-  - More:
-    "Something": something.md
+  - About: index.md
+  - More: something.md
