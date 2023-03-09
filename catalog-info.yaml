@@ -4,6 +4,9 @@ metadata:
   name: xixovski-data-science-central-repository
   title: Xixovski data science projects
   description: Central repository of data science projects. 
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+
 spec:
   type: service
   owner: user:guest
