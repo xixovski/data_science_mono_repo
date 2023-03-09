@@ -1,6 +1,5 @@
 site_name: Squad A models
 
-edit_uri: edit/main/models/squad-a/docs
 
 nav:
   - About: index.mdi
