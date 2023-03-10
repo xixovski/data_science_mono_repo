@@ -1,12 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: another-name
+  name: model-b
   description: Xixovski model b
-  labels:
-    squad: squad-b
 spec:
-  system: squad-a-data-science
+  system: recommendation-data-science
   type: ml-model
   owner: user:guest
   lifecycle: production
