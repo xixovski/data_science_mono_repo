@@ -1,5 +1,4 @@
 name: Deploy TechDocs
-description: Deploy techdocs on gcp to be used on backstage.
 
 on:
   push:
