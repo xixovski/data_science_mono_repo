@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: model-a
-  description: Xixovski model a
+  description: Xixovski model A
 spec:
   system: recommendation-data-science
   type: ml-model
