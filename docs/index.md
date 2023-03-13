@@ -4,6 +4,8 @@ This is how we organize the data science projects of the Xixovski corporation in
 
 ## Organization
 
+ - From github
+
 ## Docs
 
  - Markdown docs
