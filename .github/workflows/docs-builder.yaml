@@ -47,7 +47,7 @@ jobs:
       - name: Generate and publish docs
         run: |
           for file in ${{ steps.files.outputs.all }}; do
-            if [[ ${file} =~ 'models\/(.+)\/(.+)\/(.+)' ]]; then
+            if [[ ${file} =~ 'models\/(.+)\/(.+)\/((.+)|(.+)\/(.+))' ]]; then
               cat $(echo ${file} | sed -E 's|^models/([^/]+)/([^/]+)/([^/]+)$|models/\1/\2/catalog-info.yaml|');
             fi 
           done
