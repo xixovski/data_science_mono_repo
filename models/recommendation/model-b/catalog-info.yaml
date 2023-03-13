@@ -6,5 +6,5 @@ metadata:
 spec:
   system: recommendation-data-science
   type: ml-model
-  owner: user:guest
+  owner: user:rafael-soares-conta-teste
   lifecycle: production
