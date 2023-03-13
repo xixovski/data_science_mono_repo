@@ -8,3 +8,4 @@ This is how we organize the data science projects of the Xixovski corporation in
 
  - Markdown docs
  - Build as as code
+ - Faster deploy

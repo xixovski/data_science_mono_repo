@@ -1,5 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
+
 metadata:
   name: pricing-data-science
   description: Pricing Data Science projects
