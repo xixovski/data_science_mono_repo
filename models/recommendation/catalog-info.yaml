@@ -7,5 +7,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   domain: xixovski-data-science-central-repository
-  owner: user:guest
+  owner: user:recommendation-data-scientists
   lifecycle: production
