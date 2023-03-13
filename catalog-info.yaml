@@ -6,10 +6,8 @@ metadata:
   description: Central repository of data science projects. 
   annotations:
     backstage.io/techdocs-ref: dir:.
-
 spec:
-  type: service
-  owner: user:guest
+  owner: group:data-scientists
   lifecycle: production
 ---
 apiVersion: backstage.io/v1alpha1
