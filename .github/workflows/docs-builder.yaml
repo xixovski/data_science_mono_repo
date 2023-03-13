@@ -44,13 +44,12 @@ jobs:
       - name: Get files changed
         id: files
         uses: jitterbit/get-changed-files@v1
-      - name: Generate docs site
+      - name: Generate and publish docs
         run: |
           for file in ${{ steps.files.outputs.all }}; do
              if [[ ${file} =~ 'models\/(.+)\/(.+)\/(.+)']]; then
-               cat $(sed -e ${file} -e '\/(.+)\/(.+)\/catalog-info.yaml')
+               cat $(echo ${file} | sed -e 'models\/(.+)\/(.+)\/(.+)'  -e '\/(.+)\/(.+)\/catalog-info.yaml')
              fi 
-             echo "Do something with this ${changed_file}."
           done
         #run: techdocs-cli generate --no-docker --verbose
       
