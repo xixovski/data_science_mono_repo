@@ -48,7 +48,7 @@ jobs:
         run: |
           for file in ${{ steps.files.outputs.all }}; do
             if [[ ${file} =~ 'models\/(.+)\/(.+)\/((.+)|(.+)\/(.+))' ]]; then
-              cat $(echo ${file} | sed -E 's|^models/([^/]+)/([^/]+)/([^/]+)$|models/\1/\2/catalog-info.yaml|');
+              cat $(echo ${file} | echo "models/foo/bar/baz" | sed -E 's|^models/([^/]+)/([^/]+)/(([^/]+)|([^/]+)/([^/]+))$|models/\1/\2/catalog-info.yaml|');
             fi 
           done
         #run: techdocs-cli generate --no-docker --verbose
