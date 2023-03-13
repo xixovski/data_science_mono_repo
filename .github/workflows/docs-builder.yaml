@@ -36,15 +36,7 @@ jobs:
       - name: Add Node
         uses: actions/setup-node@v3
       - name: download, validate, install plantuml and its dependencies
-        run: |
-	curl -o plantuml.jar -L https://sourceforge.net/projects/plantuml/files/plantuml.1.2021.4.jar/download
-        echo "be498123d20eaea95a94b174d770ef94adfdca18  plantuml.jar" | sha1sum -c -
-        mv plantuml.jar /opt/plantuml.jar
-        mkdir -p "$HOME/.local/bin"
-        echo $'#!/bin/sh\n\njava -jar '/opt/plantuml.jar' ${@}' >> "$HOME/.local/bin/plantuml"
-        chmod +x "$HOME/.local/bin/plantuml"
-        echo "$HOME/.local/bin" >> $GITHUB_PATH
-        sudo apt-get install -y graphviz
+        run: sudo apt-get install -y graphviz
       - name: Install techdocs-cli
         run: sudo npm install -g @techdocs/cli
       - name: Install mkdocs and mkdocs plugins
